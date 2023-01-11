@@ -5,7 +5,7 @@ document.getElementById("addNum")?.addEventListener("click",()=>{
     arrayOfNum.push(Number(value));
 });
 document.getElementById("submit")?.addEventListener("click",()=>{
-    console.log(getAmountOfPositive(arrayOfNum));
+    console.log(sortList(arrayOfNum));
 });
 function getAverage(array :number[]) :number{
     let sum=0;
@@ -22,4 +22,7 @@ function getAmountOfPositive(array :number[]):number{
         }
     });
     return positiveNumbers;
+}
+function sortList(array :number[]){
+    return array.sort();
 }
