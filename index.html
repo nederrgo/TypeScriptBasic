@@ -2,13 +2,34 @@
 <html>
 <body>
 <h1>The input element</h1>
+<!--this is part 2-->
 <form>
+  <label>coin you use</label>
+  <select id="currency" name="currencys">
+    <option value="shekel">shekel</option>
+    <option value="dollar">dollar</option>
+    <option value="yen">yen</option>
+    <option value="pound">pound</option>
+    <option value="fazo">fazo</option>
+  </select>
+  <label>currency you want to use</label>
+  <select id="currency" name="currencys">
+    <option value="shekel">shekel</option>
+    <option value="dollar">dollar</option>
+    <option value="yen">yen</option>
+    <option value="pound">pound</option>
+    <option value="fazo">fazo</option>
+  </select><br><br>
+  <label>enter amount of coins in your currency</label><br>
+  <input type="text" id="numerOfCoins"><br><br>
   <label>add numbers</label>
-  <input type="text" id="add" name="lname"><br><br>
+  <input type="text" id="add" ><br><br>
 </form>
+<!--this is part 1 -->
 <button value="Submit" id="addNum">addNum</button>
 <button value="Submit" id="submit">submit</button>
-<p id="textInput">get </p>
-<script src="index.js"></script>
+<p id="textInput"> </p>
+<script>var exe</script>
+<script type="module" src="./dist/index.js"></script>
 </body>
 </html>
